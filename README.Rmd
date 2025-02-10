@@ -1,8 +1,10 @@
 ---
-title: "homework"
+title: "homework example"
 author: "Jean Clipperton"
 date: "`r Sys.Date()`"
-output: md_document
+output:
+  github_document:
+    html_preview: TRUE
 ---
 
 ```{r setup, include=FALSE}
