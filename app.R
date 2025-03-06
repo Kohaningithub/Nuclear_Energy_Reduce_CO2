@@ -185,7 +185,7 @@ ui <- navbarPage(
                 h2("Design Choices Explanation"),
                 h3("The Story"),
                 p("This visualization explores the complex relationship between nuclear energy adoption and carbon emissions across different countries from 1960 to the present. The core narrative examines whether countries that embrace nuclear power tend to have lower carbon footprints, how these patterns have shifted over time, and which nations have most effectively used nuclear energy as part of their emissions reduction strategy."),
-                p("The data reveals nuanced relationships rather than simple correlations. Some countries with high nuclear energy production maintain relatively high emissions due to other factors in their energy mix and industrial profile, while others have achieved significant emissions reductions alongside nuclear expansion."),
+                p("The data implied relationships rather than simple correlations. Some countries with high nuclear energy production maintain relatively high emissions due to other factors in their energy mix and industrial profile, while others have achieved significant emissions reductions alongside nuclear expansion."),
                 
                 h3("Graphical Form Selection"),
                 tags$ul(
@@ -205,8 +205,8 @@ ui <- navbarPage(
                 h3("Visual Design Principles"),
                 p("The visualization employs several key design principles:"),
                 tags$ul(
-                    tags$li(" - Countries maintain the same color across different visualizations, helping users track specific nations across multiple views."),
-                    tags$li(" - Each visualization includes explanatory text to help users interpret what they're seeing."),
+                    tags$li(" Countries maintain the same color across different visualizations, helping users track specific nations across multiple views."),
+                    tags$li(" Each visualization includes explanatory text to help users interpret what they're seeing."),
                 ),
                 
                 h3("Limitations and Considerations"),
